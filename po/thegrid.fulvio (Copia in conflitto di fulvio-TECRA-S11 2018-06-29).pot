@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: thegrid.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-20 22:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/ProductInfo.qml:10
+msgid "Product Info"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:11
+msgid "version"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:11
+msgid "Author"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:12
+msgid ""
+"A simple and basic spreadsheet based on SlickGrid JS component (http://"
+"slickgrid.net/)"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:14 ../qml/SaveAsPage.qml:58
+msgid "Close"
+msgstr ""
+
+#: ../qml/SavedContentNamePage.qml:16
+msgid "Save content"
+msgstr ""
+
+#: ../qml/SaveAsPage.qml:11
+msgid "Save grid content"
+msgstr ""
+
+#: ../qml/SaveAsPage.qml:27
+msgid "content name"
+msgstr ""
+
+#: ../qml/SaveAsPage.qml:37 ../qml/Main.qml:125
+msgid "Save"
+msgstr ""
+
+#: ../qml/SaveAsPage.qml:49
+msgid "Success"
+msgstr ""
+
+#: ../qml/Main.qml:106 theGrid.desktop.in.h:1
+msgid "theGrid"
+msgstr ""
+
+#: ../qml/Main.qml:114
+msgid "About"
+msgstr ""
+
+#: ../qml/Main.qml:136
+msgid "Open"
+msgstr ""
+
+#: ../qml/www/lib/jquery-ui-1.11.3.min.js:10
+msgid "'"
+msgstr ""

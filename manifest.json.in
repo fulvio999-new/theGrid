@@ -1,0 +1,15 @@
+{
+    "name": "thegrid.fulvio",
+    "description": "a basic spreadsheet",
+    "architecture": "@CLICK_ARCH@",
+    "title": "theGrid",
+    "hooks": {
+        "theGrid": {
+            "apparmor": "theGrid.apparmor",
+            "desktop":  "theGrid.desktop"
+        }
+    },
+    "version": "1.0-BETA",
+    "maintainer": "fulvio <fulvio999@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}

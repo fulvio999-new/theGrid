@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: thegrid.fulvio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-20 12:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/ProductInfo.qml:10
+msgid "Product Info"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:11
+msgid "version"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:11
+msgid "Author"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:12
+msgid ""
+"A simple and basic spreadsheet based on Sensei Grid component (https://"
+"github.com/datazenit/sensei-grid)"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:13
+msgid "Released with MIT license"
+msgstr ""
+
+#: ../qml/ProductInfo.qml:15 ../qml/SavedContentPage.qml:32
+#: ../qml/SaveDialog.qml:66
+msgid "Close"
+msgstr ""
+
+#: ../qml/SavedContentPage.qml:24
+msgid "Attention"
+msgstr ""
+
+#: ../qml/SavedContentPage.qml:25
+msgid "Remove ALL saved contents ? (No restore)"
+msgstr ""
+
+#: ../qml/SavedContentPage.qml:38
+msgid "Delete"
+msgstr ""
+
+#: ../qml/SavedContentPage.qml:52
+msgid "Saved content"
+msgstr ""
+
+#: ../qml/SavedContentPage.qml:58
+msgid "Delete all"
+msgstr ""
+
+#: ../qml/Main.qml:127 theGrid.desktop.in.h:1
+msgid "theGrid"
+msgstr ""
+
+#: ../qml/Main.qml:135
+msgid "About"
+msgstr ""
+
+#: ../qml/Main.qml:147 ../qml/SaveDialog.qml:13 ../qml/SaveDialog.qml:43
+msgid "Save"
+msgstr ""
+
+#: ../qml/Main.qml:157
+msgid "Open"
+msgstr ""
+
+#: ../qml/SaveDialog.qml:52
+msgid "Update successfully"
+msgstr ""
+
+#: ../qml/SaveDialog.qml:59
+msgid "Insert successfully"
+msgstr ""
+
+#: ../qml/SaveDialog.qml:87
+msgid "Press only Save to update"
+msgstr ""

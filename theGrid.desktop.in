@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=theGrid
+Exec=qmlscene qml/Main.qml
+Icon=assets/theGrid.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
