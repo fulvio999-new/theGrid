@@ -91,7 +91,7 @@
             // simulate some loading action on demo button
             if (!$btn.prop("disabled")) {
                 $btn.prop("disabled", true)
-                    .text("Deleting...");
+                    .text("Wait...");
 
                 var grid = this.grid;
                 var $row = this.grid.getCellRow($activeCell);

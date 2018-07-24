@@ -21,15 +21,9 @@ ListItem {
        id: selectableMouseArea
        anchors.fill: parent
        onClicked: {
-             console.log("Opening grid content_name: "+content_name);
-             pageStack.push(mainPage)
-
-             var contentToShow = Storage.loadContent(content_name);
-             root.setGridContent(contentToShow);
-             root.setGridName(content_name);
-             /* to have also grid name at QML level */
-             root.currentOpenedContentName = content_name;
-         }
+            /* move the selected item */
+            ubuntuListView.currentIndex = index
+        }
    }
 
    Label {
@@ -45,10 +39,39 @@ ListItem {
            Action {
                iconName: "delete"
                onTriggered: {
+
                   /* move selected item, in case of is not selected before */
                   ubuntuListView.currentIndex = index
+                  console.log("Removing: "+content_name);
+                  console.log("Current opened: "+root.currentOpenedContentName);
                   Storage.deleteGridContent(content_name);
                   savedContentNameListModel.remove(index);
+
+                  if(root.currentOpenedContentName == content_name ){
+                    console.log("Removing currently opened file...");
+                    root.currentOpenedContentName = "";
+                    root.setGridContent([]);
+                  }
+               }
+           }
+       ]
+   }
+
+   /* Swipe to right movement: edit selected item */
+   trailingActions: ListItemActions {
+       actions: [
+           Action {
+               iconName: "edit"
+               onTriggered: {
+
+                  ubuntuListView.currentIndex = index
+                  console.log("Content ot Open: "+content_name)
+                  var contentToShow = Storage.loadContent(content_name);
+                  root.setGridContent(contentToShow);
+                  root.setGridName(content_name);
+                  /* to have also grid name at QML level */
+                  root.currentOpenedContentName = content_name;
+                  pageStack.push(mainPage);
                }
            }
        ]

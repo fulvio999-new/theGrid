@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thegrid.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-24 13:23+0000\n"
+"POT-Creation-Date: 2018-07-24 17:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,9 +39,66 @@ msgstr ""
 msgid "Released with MIT license"
 msgstr ""
 
-#: ../qml/ProductInfo.qml:15 ../qml/SavedContentPage.qml:32
+#: ../qml/ProductInfo.qml:15 ../qml/BloodDiaryPage.qml:59
+#: ../qml/BloodDiaryPage.qml:135 ../qml/SavedContentPage.qml:32
 #: ../qml/SaveDialog.qml:67
 msgid "Close"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:31
+msgid "Blood Pressure Diary"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:50
+msgid "Remove selected Item ?"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:50
+msgid "(there is no restore)"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:65 ../qml/SavedContentPage.qml:38
+msgid "Delete"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:71
+msgid "Item deleted successfully"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:75
+msgid "Error during deletion"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:102
+msgid "Notes"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:124
+msgid "Confirm"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:128
+msgid "Close and press save to confirm"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:211
+msgid "Show saved blood pressure data"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:224
+msgid "From"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:241
+msgid "To"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:256
+msgid "Load"
+msgstr ""
+
+#: ../qml/BloodDiaryPage.qml:272
+msgid "Total record found"
 msgstr ""
 
 #: ../qml/SavedContentPage.qml:24
@@ -52,16 +109,16 @@ msgstr ""
 msgid "Remove ALL saved contents ? (No restore)"
 msgstr ""
 
-#: ../qml/SavedContentPage.qml:38
-msgid "Delete"
-msgstr ""
-
 #: ../qml/SavedContentPage.qml:52
 msgid "Saved content"
 msgstr ""
 
 #: ../qml/SavedContentPage.qml:58
 msgid "Delete all"
+msgstr ""
+
+#: ../qml/SavedContentPage.qml:92
+msgid "(Swipe to right or left selected item for options)"
 msgstr ""
 
 #: ../qml/Main.qml:132 theGrid.desktop.in.h:1

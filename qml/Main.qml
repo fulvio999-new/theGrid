@@ -91,10 +91,10 @@ MainView {
            console.log("Error " + code + ": " + explanation)
         }
 
+        //debug
         req.onreply = function (msg) {
             //console.log("Got reply: " + msg.str);
         }
-
     }
 
     /* Called from SavePage.qml. It raise a Javascript event catched by a listener in the html */

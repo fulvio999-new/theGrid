@@ -68,27 +68,44 @@ Page {
         Storage.loadAllContentName();
     }
 
+    /* The list of saved grid content */
     ListModel{
-        id:savedContentNameListModel
+      id:savedContentNameListModel
     }
 
-    /* placeholder */
-    Rectangle {
-         color: "transparent"
-         width: parent.width
-         height: units.gu(6)
-    }
+    Column {
+        id: mainColumn
+        spacing: units.gu(1)
+        anchors.fill: parent
 
-    /* show the list of locally saved files (the folder is the App one, due to apps confinement) */
-    UbuntuListView {
+        /* transparent placeholder */
+        Rectangle {
+            color: "transparent"
+            width: parent.width
+            height: units.gu(12)
+        }
+
+        Row{
+            anchors.horizontalCenter: parent.horizontalCenter
+            Label{
+               fontSize: "little"
+               text: i18n.tr("(Swipe to right or left selected item for options)")
+            }
+        }
+     }
+
+     /* The saved grid contents (don't placeUbuntuListView inside a Column) */
+     UbuntuListView {
         id: ubuntuListView
         anchors.fill: parent
-        anchors.topMargin: units.gu(7) /* amount of space from the above component */
+        anchors.topMargin: units.gu(17) /* amount of space from the above component */
         clip: true
+        focus: true
         /* disable the dragging of the model list elements */
         boundsBehavior: Flickable.StopAtBounds
         model: savedContentNameListModel
         delegate: SavedContentsDelegate{}
+        highlight: HighlightComponent{}
     }
 
 }
