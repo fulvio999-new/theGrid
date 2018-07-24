@@ -1,0 +1,3 @@
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/theGrid/source/theGrid/build/CMakeFiles/theGrid.desktop.dir
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/theGrid/source/theGrid/build/CMakeFiles/theGrid_FILES.dir
+/home/fulvio/Dropbox/ubuntu-devel/my-apps/theGrid/source/theGrid/build/po/CMakeFiles/thegrid.fulvio.pot.dir
