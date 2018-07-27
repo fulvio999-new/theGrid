@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thegrid.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-24 17:10+0000\n"
+"POT-Creation-Date: 2018-07-27 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,19 +121,19 @@ msgstr ""
 msgid "(Swipe to right or left selected item for options)"
 msgstr ""
 
-#: ../qml/Main.qml:132 theGrid.desktop.in.h:1
+#: ../qml/Main.qml:141 theGrid.desktop.in.h:1
 msgid "theGrid"
 msgstr ""
 
-#: ../qml/Main.qml:140
+#: ../qml/Main.qml:149
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:152 ../qml/SaveDialog.qml:13 ../qml/SaveDialog.qml:43
+#: ../qml/Main.qml:161 ../qml/SaveDialog.qml:13 ../qml/SaveDialog.qml:43
 msgid "Save"
 msgstr ""
 
-#: ../qml/Main.qml:162
+#: ../qml/Main.qml:171
 msgid "Open"
 msgstr ""
 

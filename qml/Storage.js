@@ -51,7 +51,7 @@
       /* update an existing grid content */
       function updateGridContent(contentName, gridContent){
 
-          console.log("Updating content_name: "+contentName)
+          //console.log("Updating content_name: "+contentName)
 
           var db = getDatabase();
           var res = true;
@@ -85,12 +85,12 @@
              }
           );
 
-           /* check if value is missing or not */
-           if (rs.rows.length > 0) {
+          /* check if value is missing or not */
+          if (rs.rows.length > 0) {
               return true;
-           } else {
+          } else {
               return false; //not exist
-           }
+          }
       }
 
 

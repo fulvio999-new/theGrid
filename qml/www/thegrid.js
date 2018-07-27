@@ -7,7 +7,7 @@ $(function () {
         });
     }
 
-    var columns = [];
+    //var columns = [];
 
     columns.push({
         name: "id",
@@ -27,7 +27,7 @@ $(function () {
     }
 
     // initialization grid options
-    var options = {
+/*    var options = {
         // add an empty row at the end of grid
         emptyRow: false,
         // enable sortable callbacks
@@ -42,7 +42,7 @@ $(function () {
         initialSort: {col: "id", order: "asc"},
         selectable: false
     };
-
+*/
     // initialize grid with data, column mapping and options
     grid = $(".sensei-grid-default").grid(data, columns, options);
 
@@ -81,15 +81,7 @@ $(function () {
     });
     grid.events.on("row:remove", function (data, row, $row) {
         //console.info("row remove:", data, row, $row);
-        console.log("REMOVING 22222222");
-
-
-        //var div = document.createElement("div");
-
-        //div.innerHTML = "gdfdghdghgth";
-
-        //$(div).text("BUUUUUUUUUUUUUUUu");
-
+        //console.log("REMOVING ROW...");
     });
     grid.events.on("row:mark", function ($row) {
         //console.info("row mark:", $row); //flaggato col id
@@ -120,7 +112,6 @@ $(function () {
         grid.updateData(sorted);
     });
     */
-
 
 
     // render grid

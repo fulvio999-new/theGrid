@@ -44,3 +44,13 @@ oxide.addMessageHandler("SET_GRID_NAME", function (msg) {
 	 msg.reply({str: "Event received: " + msg.args.code});
 
 });
+
+
+/* clean grid content with an empty one and reset grid title. Used when is deleted the currently opened file */
+oxide.addMessageHandler("CLEAN_GRID", function (msg) {
+
+	 var event = new CustomEvent("CLEAN_GRID", {detail: msg.args.code});
+	 document.dispatchEvent(event);
+	 msg.reply({str: "Event received: " + msg.args.code});
+
+});

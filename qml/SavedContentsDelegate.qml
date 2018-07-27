@@ -42,16 +42,16 @@ ListItem {
 
                   /* move selected item, in case of is not selected before */
                   ubuntuListView.currentIndex = index
-                  console.log("Removing: "+content_name);
-                  console.log("Current opened: "+root.currentOpenedContentName);
                   Storage.deleteGridContent(content_name);
-                  savedContentNameListModel.remove(index);
 
-                  if(root.currentOpenedContentName == content_name ){
-                    console.log("Removing currently opened file...");
-                    root.currentOpenedContentName = "";
-                    root.setGridContent([]);
+                  if(root.currentOpenedContentName === content_name ){
+                     console.log("Removing currently opened file, empty Grid...");
+                     root.currentOpenedContentName = "";
+                     root.cleanGridContent();
+                     root.setGridName("");
                   }
+
+                  savedContentNameListModel.remove(index);
                }
            }
        ]

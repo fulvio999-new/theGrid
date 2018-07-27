@@ -115,6 +115,15 @@ MainView {
         }
     }
 
+    /* clean grid content with an empty one and reset grid title. Used when is deleted the currently opened file */
+    function cleanGridContent(code) { 
+        var req = webview.rootFrame.sendMessage("messaging://", "CLEAN_GRID", {code: code});
+
+        req.onerror = function (code, explanation) {
+           console.log("Error " + code + ": " + explanation)
+        }
+    }
+
 
     PageStack {
        id: pageStack
@@ -169,19 +178,19 @@ MainView {
                 ]
          }
 
-      Flickable {
-            id: resultPageFlickable
-            clip: true
-            contentHeight: Utility.getContentHeight()
-            anchors {
-                     top: parent.top
-                     /* to don't hide the opened grid content name */
-                     topMargin: units.gu(5)
-                     left: parent.left
-                     right: parent.right
-                     bottom: mainPage.bottom
-                     bottomMargin: units.gu(2)
-            }
+         Flickable {
+             id: resultPageFlickable
+             clip: true
+             contentHeight: Utility.getContentHeight()
+             anchors {
+                  top: parent.top
+                   /* to don't hide the opened grid content name */
+                   topMargin: units.gu(5)
+                   left: parent.left
+                   right: parent.right
+                   bottom: mainPage.bottom
+                   bottomMargin: units.gu(2)
+             }
 
              WebContext {
                     id: webcontext
