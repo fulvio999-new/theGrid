@@ -12,7 +12,7 @@ import "Utility.js" as Utility
   Oxide is a web engine library based on Chromium.
   It provides a QtQuick WebView, which developers can use to embed web content in applications.
 */
-import com.canonical.Oxide 1.19 as Oxide
+import com.canonical.Oxide 1.19 as Oxide //1.19
 import Ubuntu.Components.Popups 1.3
 import "uriUtils.js" as UriUtils
 
@@ -23,7 +23,7 @@ MainView {
     applicationName: 'thegrid.fulvio'
     automaticOrientation: true
 
-    property string appVersion : "1.1-BETA"
+    property string appVersion : "1.2-BETA"
 
     /* the curently opened grid name */
     property string currentOpenedContentName: "";
@@ -116,7 +116,7 @@ MainView {
     }
 
     /* clean grid content with an empty one and reset grid title. Used when is deleted the currently opened file */
-    function cleanGridContent(code) { 
+    function cleanGridContent(code) {
         var req = webview.rootFrame.sendMessage("messaging://", "CLEAN_GRID", {code: code});
 
         req.onerror = function (code, explanation) {

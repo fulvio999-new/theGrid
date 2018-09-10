@@ -28,6 +28,7 @@ import "Storage.js"  as Storage
                           focus: true
                           id: fileNameField
                           hasClearButton: true
+                          inputMethodHints: Qt.ImhNoPredictiveText /* disable text prediction with underlining */
                           Component.onCompleted: {
                              fileNameField.text= dialogueSaveAs.currentOpenedContentName;
                           }

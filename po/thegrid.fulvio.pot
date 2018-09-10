@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thegrid.fulvio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 16:53+0000\n"
+"POT-Creation-Date: 2018-09-10 12:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../qml/ProductInfo.qml:15 ../qml/BloodDiaryPage.qml:59
 #: ../qml/BloodDiaryPage.qml:135 ../qml/SavedContentPage.qml:32
-#: ../qml/SaveDialog.qml:67
+#: ../qml/SaveDialog.qml:68
 msgid "Close"
 msgstr ""
 
@@ -129,7 +129,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: ../qml/Main.qml:161 ../qml/SaveDialog.qml:13 ../qml/SaveDialog.qml:43
+#: ../qml/Main.qml:161 ../qml/SaveDialog.qml:13 ../qml/SaveDialog.qml:44
 msgid "Save"
 msgstr ""
 
@@ -137,14 +137,14 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: ../qml/SaveDialog.qml:52
+#: ../qml/SaveDialog.qml:53
 msgid "Update successfully"
 msgstr ""
 
-#: ../qml/SaveDialog.qml:59
+#: ../qml/SaveDialog.qml:60
 msgid "Insert successfully"
 msgstr ""
 
-#: ../qml/SaveDialog.qml:87
+#: ../qml/SaveDialog.qml:88
 msgid "Press only Save to update"
 msgstr ""

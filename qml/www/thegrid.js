@@ -3,20 +3,20 @@ $(function () {
     /* Amount of Rows */
     for (var i = 0; i < 25; ++i) {
         data.push({
-            "id": i + 1
+            "A": i + 1
         });
     }
 
     //var columns = [];
 
     columns.push({
-        name: "id",
+        name: "A",
         type: "int"
         //style:{"font-weight": "bold"}
 
     });
 
-    for (var i = 1; i < 10; i++) {
+    for (var i = 1; i < 9; i++) { /* max column show on phone screen */
         columns.push({
           id: i,
           name: String.fromCharCode("A".charCodeAt(0) + (i % 26) | 0),
@@ -47,13 +47,13 @@ $(function () {
     grid = $(".sensei-grid-default").grid(data, columns, options);
 
     // register editors that are bundled with sensei grid
-    grid.registerEditor(BasicEditor);
-    grid.registerEditor(BooleanEditor);
+    //grid.registerEditor(BasicEditor);
+    //grid.registerEditor(BooleanEditor);
     grid.registerEditor(TextareaEditor);
-    grid.registerEditor(SelectEditor);
-    grid.registerEditor(DateEditor);
-    grid.registerEditor(AutocompleteEditor);
-    grid.registerEditor(DisabledEditor);
+    //grid.registerEditor(SelectEditor);
+    //grid.registerEditor(DateEditor);
+    //grid.registerEditor(AutocompleteEditor);
+    //grid.registerEditor(DisabledEditor);
 
 
     grid.registerRowAction(DeleteRowAction);
@@ -96,9 +96,10 @@ $(function () {
         //console.log("$row:", $row);
         // save row via ajax or any other way
         // simulate delay caused by ajax and set row as saved
-        setTimeout(function () {
+
+        //setTimeout(function () {
             grid.setRowSaved($row);
-        }, 1000);
+        //}, 1000);
     });
 
     // implement basic sorting (necessary have option sortable=true)
@@ -118,7 +119,7 @@ $(function () {
     grid.render();
 
     // api examples
-    var $row = grid.getRowByIndex(5);
+  //  var $row = grid.getRowByIndex(5);
 
     /*
     console.group("data api examples");
@@ -132,7 +133,7 @@ $(function () {
 
     // disable sorting for rest of the grids
     options.sortable = false;
-    options.selectable = true;
+//    options.selectable = true; //test
     //options.toolbar = true;
 
     window.grids = [grid];
